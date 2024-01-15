@@ -145,3 +145,72 @@ input{
     border-radius: 5px;
     width:150px;
 }
+
+/* Header Section Style End Here  */
+/* ===========================
+=========================== */
+
+/* section style start here  */
+
+.tours{
+    width:90%;
+    margin:0px auto;
+    padding:50px 10px;
+    background:white;
+    border-radius: 10px;
+}
+
+.tours-container{
+    display: flex;
+    gap:30px;
+    padding:20px 10px;
+}
+
+.tours-content h2{
+
+    color:#131313;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+
+}
+
+.tours-content p{
+   
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin:10px 0px 10px 0px
+}
+.tours-content ul li{
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: rgba(19, 19, 24, 0.70);
+margin-left:20px; 
+}
+
+.tours-btn{
+    padding:20px;
+    width:150px;
+    border-radius: 8px;
+    background:#ff5400;
+    border:none;
+    color:white;
+    font-weight: 400;
+}
+.tours-imge img{
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.tours-content{
+    width: 100%;
+}
+
+.tours-imge{
+    width: 100%;
+}

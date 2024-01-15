@@ -14,7 +14,8 @@
   }
 
   .header-content h1{
-    font-size:40px;
+    font-size:30px;
+    padding:10px;
   }
 
   .header-input-btn{
@@ -27,6 +28,27 @@
   }
 
 
+  .tours-container{
+    flex-direction: column;
+
+  }
+
+  .tours-content h2{
+    font-size: 30px;
+  }
+
+}
+
+/* responsive for tablet  */
+
+@media screen and (min-width:576px) and (max-width:960px){
+    .tours-content{
+        width: 100%;
+    }
+    
+    .tours-imge{
+        width: 100%;
+    }
 }
 
 
