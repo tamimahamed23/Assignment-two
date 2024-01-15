@@ -1,0 +1,21 @@
+/* responsive design start here */
+
+/* responsive for mobile devices start here  */
+
+@media screen and (max-width:768px){
+ 
+
+  .nav-menu{
+    display: none;
+  }
+
+  .bar{
+    display: block;
+  }
+
+  .header-content h1{
+    font-size:40px;
+  }
+
+
+}
