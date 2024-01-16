@@ -37,6 +37,40 @@
     font-size: 30px;
   }
 
+
+  
+#maldip{
+  grid-column:span 12;
+  grid-row:span 1;
+  position: relative;
+}
+#indonesia{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+#srilanka{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+
+#america{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+#kashmir{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+
+#bangladesh{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+#bandorbon{
+  grid-column:span 12;
+  grid-row:span 1;
+}
+
 }
 
 /* responsive for tablet  */

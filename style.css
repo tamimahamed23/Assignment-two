@@ -211,8 +211,94 @@ margin-left:20px;
     width: 100%;
 }
 
-.tours-imge{
+.tours-imge img{
     width: 100%;
+    height: 100%;
 }
 
+/* =========================
+========================  */
+.destiniation{
+    width:90%;
+    margin:0px auto;
+    padding:50px 10px;
+    background:white;
+    
+}
+.destiniation-container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
 
+}
+
+.destiniation-container p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin:10px 0px 10px 0px;
+    text-align: center;
+}
+
+.place-img-div img{
+    width:100%;
+    height: 100%;
+}
+
+.sestiniation-place-img{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin:50px auto;
+    gap:10px;
+   
+    
+}
+
+#maldip{
+    grid-column:span 6;
+    grid-row:span 1;
+    position: relative;
+}
+#indonesia{
+    grid-column:span 6;
+    grid-row:span 1;
+}
+#srilanka{
+    grid-column:span 3;
+    grid-row:span 1;
+}
+
+#america{
+    grid-column:span 6;
+    grid-row:span 1;
+}
+#kashmir{
+    grid-column:span 3;
+    grid-row:span 1;
+}
+
+#bangladesh{
+    grid-column:span 4;
+    grid-row:span 1;
+}
+#bandorbon{
+    grid-column:span 8;
+    grid-row:span 1;
+}
+
+.place-img-div{
+    position:relative;
+}
+.place-img-div >h3{
+    position: absolute;
+}
+.absolute{
+    position: absolute;
+    top: 50%;
+    color:red;
+    left: 50%;
+    
+}
